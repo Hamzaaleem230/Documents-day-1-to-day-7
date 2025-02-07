@@ -1,0 +1,5 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Measure Performance Score,Run Lighthouse audit > Check Performance tab,Score should be 90+,Score is 67,Failed,High,-,Optimize images, reduce render-blocking resources
+TC002,Check Accessibility Compliance,Run Lighthouse audit > Check Accessibility tab,Score should be 90+,Score is 85,Passed,Medium,-,Improve color contrast, add ARIA labels
+TC003,Validate Best Practices,Run Lighthouse audit > Check Best Practices tab,Score should be 90+,Score is 100,Passed,Low,-,No issues found
+TC004,Verify SEO Optimization,Run Lighthouse audit > Check SEO tab,Score should be 90+,Score is 100,Passed,Low,-,Follows best search engine optimization practices
