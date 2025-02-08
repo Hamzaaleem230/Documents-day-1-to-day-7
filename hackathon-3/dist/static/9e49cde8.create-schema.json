@@ -1,0 +1,78 @@
+[
+  {
+    "fields": [
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "price",
+        "type": "number"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "name": "image",
+        "type": "image"
+      },
+      {
+        "options": {
+          "list": [
+            {
+              "title": "T-Shirt",
+              "value": "tshirt"
+            },
+            {
+              "title": "Short",
+              "value": "short"
+            },
+            {
+              "title": "Jeans",
+              "value": "jeans"
+            },
+            {
+              "title": "Hoodie",
+              "value": "hoodie"
+            },
+            {
+              "title": "Shirt",
+              "value": "shirt"
+            }
+          ]
+        },
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "name": "discountPercent",
+        "type": "number"
+      },
+      {
+        "name": "new",
+        "type": "boolean"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "colors",
+        "type": "array"
+      },
+      {
+        "of": [
+          {
+            "type": "string"
+          }
+        ],
+        "name": "sizes",
+        "type": "array"
+      }
+    ],
+    "name": "products",
+    "type": "document"
+  }
+]
